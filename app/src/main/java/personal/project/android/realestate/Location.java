@@ -40,7 +40,7 @@ public class Location extends FragmentActivity implements OnMapReadyCallback {
     public void onMapReady(GoogleMap googleMap) {
         mMap = googleMap;
 
-       //Markers of the locations of the Flats 
+       //Markers of the locations of the Flats
         LatLng Kol = new LatLng(22.620986, 88.439620);
         mMap.addMarker(new MarkerOptions().position(Kol).title("Galaxy Apartments"));
         mMap.moveCamera(CameraUpdateFactory.newLatLng(Kol));

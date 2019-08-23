@@ -72,7 +72,7 @@ public class ContactUs extends AppCompatActivity implements View.OnClickListener
 
         int id = item.getItemId();
 
-        if (id == android.R.id.home)     //For functioning of the home button
+        if (id == android.R.id.home)     //For functioning of the home button  
             finish();
         return super.onOptionsItemSelected(item);
 
