@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         String opass="admin123";
 
         if(email.equals(oemail)&& password.equals(opass)){
-            Intent intent=new Intent(this,Navigation.class);
+            Intent intent=new Intent(this,Navigation.class);  //Login Credentials check
             startActivity(intent);
 
         }

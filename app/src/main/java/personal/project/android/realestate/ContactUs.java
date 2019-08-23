@@ -43,7 +43,7 @@ public class ContactUs extends AppCompatActivity implements View.OnClickListener
         String ph=phone.getText().toString().trim();
         String pr=prop.getText().toString().trim();
 
-        if(n.isEmpty()){
+        if(n.isEmpty()){  //checking for constraints
             name.setError("Name can't be blank");
             name.requestFocus();
             error=true;
@@ -72,7 +72,7 @@ public class ContactUs extends AppCompatActivity implements View.OnClickListener
 
         int id = item.getItemId();
 
-        if (id == android.R.id.home)
+        if (id == android.R.id.home)     //For functioning of the home button
             finish();
         return super.onOptionsItemSelected(item);
 
